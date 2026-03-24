@@ -1,0 +1,17 @@
+[project]
+name = "nova-sight-lpr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "lap>=0.5.13",
+    "numpy>=2.4.3",
+    "opencv-python>=4.13.0.92",
+    "pydantic-settings>=2.13.1",
+    "roboflow>=1.2.16",
+    "supervision>=0.27.0.post2",
+    "ultralytics>=8.4.24",
+    "uvicorn>=0.42.0",
+]
